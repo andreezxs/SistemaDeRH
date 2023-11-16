@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de RH</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de RH</h1>
+    </header>
+    <main>
+        <input type="text" id="nome" placeholder="Nome do funcionário">
+        <input type="text" id="cargo" placeholder="Cargo">
+        <input type="number" id="salario" placeholder="Salário">
+        <button class="btn-save" onclick="adicionarFuncionario()">Salvar</button>
+        <button onclick="gerarCSV()">Exportar CSV</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Cargo</th>
+                    <th>Salário</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaFuncionarios">
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2023 Sistema de RH, produzido por @andreezxs</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

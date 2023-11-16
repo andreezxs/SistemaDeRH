@@ -1,0 +1,93 @@
+/* Estilizando o cabeçalho */
+header {
+    background-color: #2c3e50; /* Azul escuro */
+    color: #ecf0f1; /* Branco gelo */
+    padding: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #f0f0f0; /* Cor de fundo para a página */
+    overflow-y: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Campos de entrada e botões */
+input[type="text"],
+input[type="number"],
+button {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #bdc3c7; /* Cinza claro */
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+}
+
+button.btn-save {
+    background-color: #3498db; /* Azul */
+    color: #ecf0f1; /* Branco gelo */
+    border: none;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button.btn-save:hover {
+    background-color: #2980b9; /* Azul mais escuro */
+}
+
+/* Estilizando a tabela */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th, td {
+    border: 1px solid #bdc3c7; /* Cinza claro */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2c3e50; /* Azul escuro */
+    color: #ecf0f1; /* Branco gelo */
+}
+
+tr:nth-child(even) {
+    background-color: #ecf0f1; /* Branco gelo */
+}
+
+.btn-delete {
+    background-color: #e74c3c; /* Vermelho */
+    color: #ecf0f1; /* Branco gelo */
+}
+
+.btn-delete:hover {
+    background-color: #c0392b; /* Vermelho mais escuro */
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #2c3e50; /* Azul escuro */
+    color: #ecf0f1; /* Branco gelo */
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
